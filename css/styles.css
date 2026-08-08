@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: gray;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+header nav img {
+    height: 30px;
+    width: 100px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+.login-btn{
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 10px;
+
+}
+
+.login-btn:hover{
+    color: black;
+}
+
+.mainsection {
+    background-image: url('https://m.gettywallpapers.com/wp-content/uploads/2023/12/Food-4k-Wallpaper-For-PC.jpg');
+    height: 90vh;
+    background-size: cover;
+    align-content: center;
+    justify-items: left;
+    color: white;
+
+    
+}
+
+.mainsection .subsection1 button {
+    background-color: red;
+    padding: 9px 14px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+}
+.mainsection .subsection1 button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+.video-section {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    background-color: black;
+}
+
+.video-text h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.video-text p {
+    color: white;
+}
+
+.video-box video {
+    border-radius: 15px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: cornsilk;
+}
+
+.text-section {
+    max-width: 700px;
+    margin: auto;
+}
+
+.text-section p {
+    line-height: 1.5;
+    margin: 30px;
+    
+}
+
+/*menu.html*/
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 30px;
+
+}
+
+.menu-container img:hover {
+transform: scale(0.9);                     
+}
+
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+     transition: transform 0.3s ease;
+}
+
+.card {
+    box-shadow: 4px 5px 10px black;
+    border-radius: 10px;
+}
+
+
+.card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-shadow: 0px 5px 12px black;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.card button {
+    background-color: red;
+    padding: 5px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.filters {
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.filter-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+
+}
+
+.filter-container p {
+    text-align: center;
+}
+
+.filter-container img:hover {
+transform: scale(0.9);                     
+}
+
+
+/* cart.html*/
+
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:20px auto;
+}
+
+thead{
+    background: #f80202;
+    color: white;
+}
+
+th ,td {
+    padding: 15px;
+    text-align: center;
+}
+
+tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.remove {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove:hover{
+    background:darkred;
+}
+
+.grand-total td{
+    font-weight: bold;
+    font-size: 18px;
+}
+.grand-total button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grand-total button:hover{
+    background: darkred;
+}
+.qty-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.qty-box button:hover{
+    background: #cc0000;
+}
+
+.qty-box span {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+}
+
+/*login.html*/
+
+.authentication{
+    width: 320px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 40px auto;
+    background-color:cornsilk;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+    background: rgba(255, 255, 255, 0.92);
+}
+
+.login-page{
+    background-image: url('https://img.magnific.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?semt=ais_hybrid&w=740&q=80');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login-form h2{
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.login-form a{
+    color:#ff5722;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.login-form a:hover{
+    background-color:plum;
+    color: #c7460c;
+    text-decoration: underline;
+}
+.login-form p{
+    margin-top: 12px;
+}
+
+.login-form button{
+    width: 90%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius:5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.login-form button:hover{
+    background-color:#e64a19;
+}
+
+/*signup*/
+
+
+.account{
+    width: 320px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.account h2{
+     margin-bottom:20px;
+     font-size: 28px;
+}
+.account input{
+    width:90%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.account button{
+    width: 90%;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.account button:hover{
+    background-color: #e64a19;
+}
+.account p{
+    margin-top: 15px;
+}
+.account a{
+    text-decoration: none;
+    color:#ff5722;
+    font-weight: bold;
+}
+.signup-page{
+     background-image: url('https://media.istockphoto.com/id/1524823226/photo/colorful-raw-fruits-and-vegetables-varied-vegan-food-vivid-rainbow-arrangement.jpg?s=612x612&w=0&k=20&c=TtpnDbqIoQ-29DuhrZ9mKxp6sPQvY0BMdcW67dDyZxw=');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*deals.html*/
+.deals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px;
+
+}
+
+.combo-card img:hover {
+transform: scale(0.9);                     
+}
+
+
+.combo-card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.combo-card{
+    text-align: center;
+    box-shadow: 4px 5px 10px black;
+    border-radius: 10px;
+}
+.combo-card h4 span{
+    text-decoration: line-through;
+    color: gray;
+}
+.combo-card button:hover{
+    color:darkred;
+}
+.combo-card button{
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #c7460c;
+}
+h2{
+    margin: 0 0 8px;
+}
+
+p{
+    margin: 0 0 10px;
+}
+.h4{
+    margin: 0 0 15px;
+}
+/*special deals*/
+
+.offers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.offer-card{
+    text-align: center;
+    padding: 30px;
+    background-color:rgb(231, 213, 213);
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.offer-card:hover{
+    padding: 20px;
+    transform: translate(-5px);
+}
+.offer-card h2{
+    margin-bottom: 10px;
+}
+.offer-card P{
+margin-bottom: 10px;
+}
+.offer-card h4{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.red{
+    border-top: 7px solid red;
+}
+.yellow{
+    border-top: 7px solid yellow;
+}
+.green{
+    border-top: 7px solid green;
+}
