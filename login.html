@@ -26,12 +26,21 @@
         <form class="login-form">
             <h2>Login to Bite<span style="color: red;">Box</span></h2>
             <input type="email" placeholder="Enter email" required>
-            <input type="password" placeholder="Enter password" required>
+        <div class="password-container"></div>
+            <div class="input">
+                   <input type="password" placeholder="Enter password" required> 
+                </div>
+                <div class="icon">
+                <i class="fa-solid fa-eye" onclick="togglePassword()"></i>
+                </div>
+
+                </div>
             <button>Login</button>
             <p><a href="Signup.html">Forgot password</a></p>
             <p>Don't have an account?<span><a href="signup.html">Signup</a></span></p>
 
         </form>
     </section>
+     <script src="script/jsfile.js"></script>
 </body>
 </html>

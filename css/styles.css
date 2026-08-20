@@ -495,3 +495,27 @@ margin-bottom: 10px;
 .green{
     border-top: 7px solid green;
 }
+
+.password-container {
+    display: flex;
+    position: absolute;
+}
+
+.icon {
+    position: relative;
+    top: 50px;
+    right: 30px;
+    cursor: pointer;
+}
+
+/* footer section  */
+.foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+.end {
+    text-align: center;
+}
