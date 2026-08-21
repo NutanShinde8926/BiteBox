@@ -11,12 +11,22 @@ function login() {
     }
 }
 
+// function togglePassword() {
+//     let passIP = document.getElementById('password');
+//     if(passIP.type === 'password') {
+//         passIP.type = 'text';
+      
+//     }else {
+
+//     }
+// }
+
 function togglePassword() {
     let passIP = document.getElementById('password');
     if(passIP.type === 'password') {
         passIP.type = 'text';
-      
+        // passIP.type = 'password';   <-- old blank else, commented out
     }else {
-        
+        passIP.type = 'password';   // NEW LINE — this makes the eye toggle back
     }
 }

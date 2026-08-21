@@ -496,7 +496,7 @@ margin-bottom: 10px;
     border-top: 7px solid green;
 }
 
-.password-container {
+/* .password-container {
     display: flex;
     position: absolute;
 }
@@ -506,8 +506,20 @@ margin-bottom: 10px;
     top: 50px;
     right: 30px;
     cursor: pointer;
+} */
+
+
+.password-container {
+    position: relative;   /* this makes it the "anchor" for the eye icon */
 }
 
+.icon {
+    position: absolute;   /* now this positions relative to .password-container, not the page */
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);   /* centers it vertically inside the box */
+    cursor: pointer;
+}
 /* footer section  */
 .foot {
     display: grid;
