@@ -510,14 +510,14 @@ margin-bottom: 10px;
 
 
 .password-container {
-    position: relative;   /* this makes it the "anchor" for the eye icon */
+    position: relative;   
 }
 
 .icon {
-    position: absolute;   /* now this positions relative to .password-container, not the page */
+    position: absolute;   
     top: 50%;
     right: 15px;
-    transform: translateY(-50%);   /* centers it vertically inside the box */
+    transform: translateY(-50%);  
     cursor: pointer;
 }
 /* footer section  */
@@ -530,4 +530,262 @@ margin-bottom: 10px;
 
 .end {
     text-align: center;
+}
+
+@media(max-width:800px){
+    .cart{
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+   
+
+/* css responsive */
+
+
+/* @media(max-width:800px){
+    .nav{
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+@media(max-width:800px){
+    .mainsection{
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+@media(max-width:800px){
+    .mainsection{
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+@media(max-width:100%){
+    .combo-section{
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+}
+
+
+@media(max-width:800px){
+    .offers{
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        
+    }
+} */
+
+@media (max-width: 768px) {
+ 
+    header{
+        padding: 8px;
+    }
+ 
+    header nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    nav div img{
+        height: 35px;
+        width: 35px;
+    }
+ 
+    header nav h2{
+        font-size: 26px;
+    }
+ 
+    header nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        font-size: 16px;
+    }
+ 
+    .login-btn{
+        padding: 4px 8px;
+    }
+ 
+    .mainsection{
+        height: auto;
+        min-height: 60vh;
+        padding: 150px 20px 40px 20px;
+    }
+ 
+    .mainsection .subsection h2{
+        font-size: 28px;
+        text-align: center;
+    }
+ 
+    .mainsection .subsection p{
+        font-size: 18px;
+    }
+ 
+    .mainsection .subsection button{
+        font-size: 18px;
+        padding: 8px 18px;
+    }
+ 
+    .video-section{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+ 
+    .video-text h2{
+        font-size: 26px;
+    }
+ 
+    .video-text p{
+        font-size: 16px;
+    }
+ 
+    .video-box video{
+        width: 100%;
+        margin-top: 15px;
+    }
+ 
+    .text-d{
+        padding: 20px;
+        max-width: 100%;
+    }
+ 
+    .text .text-d h2{
+        font-size: 32px;
+    }
+ 
+    .text .text-d p{
+        font-size: 18px;
+    }
+ 
+    .menu-title{
+        font-size: 34px;
+    }
+ 
+    .menu-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 15px;
+    }
+ 
+    .filters{
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 450px;
+        gap: 10px;
+    }
+ 
+    .content img{
+        width: 65px;
+        height: 65px;
+        margin-top: 20px;
+    }
+ 
+    .content{
+        font-size: 16px;
+    }
+ 
+    .burger-heading{
+        font-size: 34px;
+        text-align: center;
+    }
+ 
+    .burger-container{
+        grid-template-columns: 1fr;
+    }
+ 
+    .Burgers-img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+ 
+    .burger-container p{
+        max-width: 100% !important;
+        padding: 0 15px;
+    }
+ 
+    /* Cart table - allow horizontal scroll instead of squashing */
+    .cart{
+        overflow-x: auto;
+        width: 100%;
+    }
+ 
+    table{
+        min-width: 650px;
+        font-size: 18px;
+        margin: 40px auto;
+    }
+ 
+    .item img{
+        height: 100px;
+        width: 100px;
+    }
+ 
+    .deals-section{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 60px;
+    }
+ 
+    .deals-section h2{
+        font-size: 30px;
+    }
+ 
+    .deals{
+        grid-template-columns: 1fr;
+    }
+ 
+    .offer-heading{
+        margin-top: 60px;
+    }
+ 
+    .offers{
+        grid-template-columns: 1fr;
+    }
+ 
+    .offer-card h4{
+        width: 60%;
+    }
+ 
+    footer .footer-container{
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+ 
+    .footer-container .div3 p{
+        margin-left: 0;
+    }
+ 
+    .footer-container .div4 a{
+        margin-left: 8px;
+    }
+ 
+    .form1 form{
+        padding: 40px 30px;
+        width: 85%;
+        max-width: 400px;
+    }
+ 
+    .form1 form input{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
